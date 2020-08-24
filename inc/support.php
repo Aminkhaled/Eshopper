@@ -39,6 +39,8 @@ remove_action( 'woocommerce_product_thumbnails', 'woocommerce_show_product_thumb
 add_action( 'after_setup_theme', 'wpdocs_theme_setup' );
 function wpdocs_theme_setup() {
     add_image_size( 'product-carousel', 400,300 ,true); // 300 pixels wide (and unlimited height)
+    add_image_size( 'product-main-query', 241,224 ,true); // 300 pixels wide (and unlimited height)
+
 }
 add_action('woocommerce_product_thumbnails', 'eshopper_add_carosuelon_product_page',20);
 
@@ -121,8 +123,8 @@ add_action('woocommerce_single_product_summary', 'add_brand_to_product_page', 45
 function custom_socialshare(){
 	?>
 	<div class="shoiacl-product"> 
-		<a class="btn btn-primary " href=""> <i class="fa fa-facebook"></i> Facebook </a>
-		<a class="btn btn-primary " href=""> <i class="fa fa-google-plus"></i> Google Plus </a>
+		<a class="btn btn-primary " href=""> <i class="fa fa-facebook"></i>  Facebook </a>
+		<a class="btn btn-primary " href=""> <i class="fa fa-google-plus"></i>  Google Plus </a>
 		
 	
 	</div>
@@ -159,13 +161,13 @@ foreach($brandcontents as $brandcontent ):
 //var_dump($brandcontent);
 //get_term_meta($term->term_id, 'cat_term_img', true );
 if($brandcontent){
-		
+
 			echo '<h2><b>Brand: </b>'.$brandcontent->name.'</h2>';
 			echo '<img src="'.get_term_meta($brandcontent->term_id, 'cat_term_img', true ).'" alt="" width="200px" height="200px" style="display:block" />';
 			echo '<p style="margin:30px 0;">'.$brandcontent->description.'</p>';
-		
+
 		}
-	
+
 endforeach;
 	
 }

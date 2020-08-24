@@ -83,9 +83,19 @@
 						<div class="shop-menu pull-right">
 							<ul class="nav navbar-nav">
 								<li><a href="#"><i class="fa fa-user"></i> Account</a></li>
-								<li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
-								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-								<li><i class="fa fa-shopping-cart"></i><a class="cart-contents" href="<?php echo WC()->cart->get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf (_n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> - <?php echo WC()->cart->get_cart_total(); ?></a></li>
+								<li>
+                                    <?php echo do_shortcode('[yith_wcwl_add_to_wishlist]') ?>
+                                 wishlist
+
+                                </li>
+
+<li>
+                                <a href="<?php echo esc_url( wc_get_checkout_url() ); ?>" >
+                                    <i class="fa fa-crosshairs"></i>
+                                    <?php esc_html_e( 'checkout', 'woocommerce' ); ?>
+                                </a>
+                                </li>
+								<li><i class="fa fa-shopping-cart"></i>  <a class="cart-contents" href="<?php echo WC()->cart->get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf (_n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> - <?php echo WC()->cart->get_cart_total(); ?></a></li>
 								<li><a href="login.html"><i class="fa fa-lock"></i> Login</a></li>
 							</ul>
 						</div>

@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 	<section id="slider"><!--slider-->
 		<div class="container">
 			<div class="row">
@@ -210,158 +211,64 @@
 				<div class="col-sm-9 padding-right">
 					<div class="features_items"><!--features_items-->
 						<h2 class="title text-center">Features Items</h2>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-										<div class="productinfo text-center">
-											<img src="<?php echo get_template_directory_uri () ;  ?>/images/home/product1.jpg" alt="" />
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-										<div class="product-overlay">
-											<div class="overlay-content">
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-										</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="<?php echo get_template_directory_uri () ;  ?>/images/home/product2.jpg" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="<?php echo get_template_directory_uri () ;  ?>/images/home/product3.jpg" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="<?php echo get_template_directory_uri () ;  ?>/images/home/product4.jpg" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-									<img src="<?php echo get_template_directory_uri () ;  ?>/images/home/new.png" class="new" alt="" />
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="<?php echo get_template_directory_uri () ;  ?>/images/home/product5.jpg" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-									<img src="<?php echo get_template_directory_uri () ;  ?>/images/home/sale.png" class="new" alt="" />
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="<?php echo get_template_directory_uri () ;  ?>/images/home/product6.jpg" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
+                        <?php
+                        $args = array(
+                            'post_type'             => 'product',
+                            'post_status'           => 'publish',
+                            'ignore_sticky_posts'   => 1,
+                            'posts_per_page'        => '12',
+                        );
+                        $products = new WP_Query($args);
+                        ?>
+                        <?php
+                               if($products->have_posts()):
+                                   while($products->have_posts()):
+                                       $products->the_post();
+                        ?>
+                                       <div class="col-sm-4">
+                                           <div class="product-image-wrapper">
+                                               <div class="single-products">
+                                                   <div class="productinfo text-center">
+                                                       <?php the_post_thumbnail('product-main-query'); ?>
+                                                       <?php $product = wc_get_product( get_the_ID() ); /* get the WC_Product Object */ ?>
+                                                       <h2><?php echo $product->get_price_html(); ?></h2>
+                                                       <p><?php the_title() ?></p>
+                                                       <?php
+                                                       echo '<a href="'.$product->add_to_cart_url().'" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i> Add to cart</a>'
+                                                       ?>
+                                                   </div>
+                                                   <div class="product-overlay">
+                                                       <div class="overlay-content">
+                                                           <?php $product = wc_get_product( get_the_ID() ); /* get the WC_Product Object */ ?>
+                                                           <h2><?php echo $product->get_price_html(); ?></h2>
+                                                           <p><?php the_title() ?></p>
+                                                        <?php
+                                                        echo '<a href="'.$product->add_to_cart_url().'" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i> Add to cart</a>'
+                                                        ?>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="choose">
+                                                   <ul class="nav nav-pills nav-justified">
+                                                       <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
+                                                       <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
+                                                   </ul>
+                                               </div>
+                                           </div>
+                                       </div>
+
+
+<?php
+                               endwhile;
+                               ?>
+                                   <?php wp_reset_postdata(); ?>
+     <?php else:  ?>
+                                   <li>
+                                       <?php _e( 'No products' ); ?>
+                                   </li>
+                               <?php
+                               endif;?>
+
 						
 					</div><!--features_items-->
 					

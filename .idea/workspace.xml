@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9e6706f-c8c0-4f96-9696-ebe095d105e7" name="Default Changelist" comment="" />
+    <list default="true" id="c9e6706f-c8c0-4f96-9696-ebe095d105e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/support.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/support.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +20,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/../../../wp-includes" />
@@ -19,6 +30,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gPHvf1PVv0vOBzn7UzrBSPI68H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
   </component>
@@ -62,7 +75,9 @@
       <workItem from="1598015637944" duration="17852000" />
       <workItem from="1598076165955" duration="7816000" />
       <workItem from="1598117934708" duration="5530000" />
-      <workItem from="1598165489319" duration="209000" />
+      <workItem from="1598165489319" duration="8138000" />
+      <workItem from="1598193228714" duration="747000" />
+      <workItem from="1598269959217" duration="7174000" />
     </task>
     <servers />
   </component>
@@ -78,10 +93,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598009656163" />
-    <state x="0" y="0" width="607" height="728" key="find.popup" timestamp="1598099738441">
+    <state x="0" y="0" width="607" height="728" key="find.popup" timestamp="1598273048459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1598099738441" />
+    <state x="0" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1598273048459" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1598024388692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

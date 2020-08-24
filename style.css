@@ -304,3 +304,38 @@ table.shop_table tr td a:hover {
     border-bottom: 1px solid #fe980f;
     z-index: 1;
 }
+.one-time .carousel-item {
+    width: 100%;
+    display: inline-block;
+    border: 3px solid gray;
+    border-radius: 15px;
+    overflow: hidden;}
+
+/*
+===================
+Yith E-commerce
+===================
+*/
+.yith-wcwl-add-button{
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 24px;
+}
+.yith-wcwl-add-button a span{
+    margin-left: -3px;
+}
+.yith-wcwl-add-button a span,.yith-wcwl-add-button i{
+    color: darkslategray;
+}
+.yith-wcwl-wishlistaddedbrowse span{
+    color: red;
+}
+.yith-wcwl-wishlistaddedbrowse a{
+    color: darkslategray;
+}
+.yith-wcwl-wishlistexistsbrowse span{
+    color:red;
+}
+.yith-wcwl-wishlistexistsbrowse a{
+    color: darkslategray;
+}

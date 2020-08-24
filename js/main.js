@@ -33,8 +33,11 @@ jQuery(document).ready(function($){
 		infinite: true,
 		speed: 200,
 		slidesToShow: 1,
+		fade: true,
+		arrows: true,
+		cssEase: 'linear',
 		adaptiveHeight: true
 	});
 	$('.slick-next').hide();
-	$('.slick-prev').hide();
+	 $('.slick-prev').hide();
 });
